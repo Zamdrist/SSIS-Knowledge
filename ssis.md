@@ -26,8 +26,8 @@ Generally all connection managers should be Project scoped. This aids in visibil
 Within any package you will see at the bottom the Connection Managers tab (below). Project scoped connections are noted in parentheses. Viewing the properties of a connection manager gains you access to the Expressions property. From there you can select the appropriate parameter for the connection.  
 ![Connection Managers](images/4.png)  
 ![Connection Manager Details](images/5.png)  
-![Property Expression Editor](images/6.png)   
- 
+![Property Expression Editor](images/6.png)  
+![Property Expression Builder](images/7.png)   
 Defining parameters and associating them with expressions will ensure these parameters can be accessed and used by the deployed Project on SQL Server.  
  
 ### SQL Server & Integration Services Catalog  
