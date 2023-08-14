@@ -1,10 +1,10 @@
 # SSIS Knowledge Share
 
-Resources
-SSIS Parameters and Environments (YouTube)
-Deploy Integration Services (SSIS) Projects and Packages
+### Resources
+[SSIS Parameters and Environments (YouTube)](https://www.youtube.com/watch?v=3HcPJCBS_KY)  
+[Deploy Integration Services (SSIS) Projects and Packages](https://learn.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages?view=sql-server-ver15)  
  
-Requirements  
+### Requirements  
 Visual Studio Community Edition 2019 (Or higher)  
 SQL Server Integration Services Project Extension - Visual Studio Marketplace  
  
