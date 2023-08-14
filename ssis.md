@@ -35,20 +35,18 @@ Defining parameters and associating them with expressions will ensure these para
 When you deploy an SSIS solution project to SQL Server, you will find the project under Integration Service Catalogs. You will want to create an Environment property for each environment scope you will use. Later, the SQL Server Job will use one of the environments you set it up to run under.  
  
 Each environment will list the same parameters, in this case connection strings, as you created in the SSIS package. Use the appropriate connection strings for each environment: development, production.  
-![SSIS Environments](images/7.png)
-
- 
-
+![SSIS Environments](images/8.png)  
+![SSIS Environment Property Variables](images/9.png)  
  
 Configure and define project Parameters and References, similar as to the example below. The parameters and expressions you set up in the SSIS project in Visual Studio should reflect what you see here.
+![SSIS Environments](images/10.png)   
  
+### SQL Server Job Configuration  
+When you create and define the SQL Server Job, you add a step and configure that step to run a package using a particular environment.  
+ 
+1. You need to run the step as (Run as) the domain account assigned for the project
+2. In the Package tab (below) select the DTS package file to run from the appropriate location
+3. Select the appropriate environment for the job, these are the environments you created earlier  
 
-
- 
- 
-SQL Server Job Configuration
-When you create and define the SQL Server Job, you add a step and configure that step to run a package using a particular environment.
- 
-You need to run the step as (Run as) the domain account assigned for the project
-In the Package tab (below) select the DTS package file to run from the appropriate location
-Select the appropriate environment for the job, these are the environments you created earlier.
+![Job Properties Package](images/12.png)  
+![Job Properties Configuration](images/13.png)
