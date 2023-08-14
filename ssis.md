@@ -4,9 +4,9 @@ Resources
 SSIS Parameters and Environments (YouTube)
 Deploy Integration Services (SSIS) Projects and Packages
  
-Requirements
-Visual Studio Community Edition 2019 (Or higher)
-SQL Server Integration Services Project Extension - Visual Studio Marketplace
+Requirements  
+Visual Studio Community Edition 2019 (Or higher)  
+SQL Server Integration Services Project Extension - Visual Studio Marketplace  
  
 Notes
 We'll want to use Project Deployment Model going forward with any new SSIS projects as well as transition any deployed currently as Package Deployment Model as time and resources permit.
